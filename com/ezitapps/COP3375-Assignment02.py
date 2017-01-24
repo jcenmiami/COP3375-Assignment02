@@ -9,6 +9,8 @@ Once that is done, we should print the results.
 The second would be to divide two fractions. An easy way to do this is by flipping over the second fraction, and 
 then multiplying it be the first. 
 
+Test all the methods and make sure they are working. 
+
 @author: juanramirez
 '''
 from lib2to3.fixer_util import String
@@ -95,7 +97,7 @@ class Fraction:
             oldn = n       
             m = oldn        
             n = oldm%oldn    
-            return n
+        return n
     
     
 
